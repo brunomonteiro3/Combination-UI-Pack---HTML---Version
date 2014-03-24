@@ -22,7 +22,7 @@ a{
 	background: #444953;}
 
 .default-rounded,
-.default-rounded a{
+.default-rounded-child a{
 	border-radius: 5px;}
 
 /* Main menu */
@@ -37,12 +37,17 @@ a{
 /* Buttons */
 
 .btn{
-	padding: 12px 15px;}
+	font-size: 16px;
+	padding: 12px 40px;}
+
+.btn-small{
+	font-size: 14px;
+	padding: 12px 20px;}
 
 .btn-success{
 	background: #8ab71b;}
 
-.btn-normal{
+.btn-default{
 	background: #2aa1d3;}
 
 .btn-error{
@@ -50,6 +55,9 @@ a{
 
 .btn-warning{
 	background: #f0b017;}
+
+.btn-dark{
+	background: #525863;}
 
 .btn-inactive{
 	color: #444953;
@@ -71,3 +79,25 @@ a{
 .default-field.error{
 	padding: 5px 13px;
 	border: 2px solid #ee4e10;}
+
+/* Default Menu */
+
+.default-menu .opt{
+	border-bottom: 1px solid #333841;
+	padding: 20px;}
+
+.default-menu .opt:hover,
+.default-menu .opt.selected{
+	background: #23252b;}
+
+.default-menu .has-child .child{
+	background: #23252b;
+	border-top: 2px solid #8ab71b;}
+
+.default-menu .has-child a{
+	border-bottom: #1d1f24;}
+
+.default-menu .has-child a:hover,
+.default-menu .has-child a.selected{
+	padding-left: 18px;
+	border-left: 2px solid #2aa1d3;}
