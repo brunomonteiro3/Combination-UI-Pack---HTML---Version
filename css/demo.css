@@ -1,0 +1,8 @@
+/* 
+	None of these styles should be used in production - 
+	this file is only for the GitHub demo 
+*/
+
+.demo-w-4 .default-block{
+	width: 295px;
+}

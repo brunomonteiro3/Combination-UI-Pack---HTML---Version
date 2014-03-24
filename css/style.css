@@ -41,3 +41,33 @@ a{
 
 .btn-success{
 	background: #8ab71b;}
+
+.btn-normal{
+	background: #2aa1d3;}
+
+.btn-error{
+	background: #ee4e10;}
+
+.btn-warning{
+	background: #f0b017;}
+
+.btn-inactive{
+	color: #444953;
+	background: #23252b;}
+
+/* Fields */
+
+.default-field{
+	color: #f8f6f3;
+	background: #23252b;}
+
+.default-field.spacer{
+	padding: 7px 15px;}
+
+.default-field:focus{
+	padding: 5px 13px;
+	border: 2px solid #2aa1d3 !important;}
+
+.default-field.error{
+	padding: 5px 13px;
+	border: 2px solid #ee4e10;}

@@ -90,6 +90,7 @@ body, h1, h2, h3, ul, li, p, input, img, fieldset, button{
 
 /* Other stuff */
 
+.fnp{font-family: 'asapbold', Arial;}
 .tu{text-transform: uppercase;}
 .lh{line-height: 1;}
 .hidden{display: none;}
